@@ -22,6 +22,7 @@ function Projects({}: Props) {
       >
         {proyects.map((proyect, i) => (
           <div
+            key={i}
             className=" w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center 
            justify-center p-20 md:p-44 h-screen"
           >
